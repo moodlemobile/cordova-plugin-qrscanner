@@ -11,15 +11,16 @@ We created this fork because we needed to include the following modifications in
 | [#266](https://github.com/bitpay/cordova-plugin-qrscanner/pull/266) | fix openSettingsURLString deprecated function |
 | [#382](https://github.com/bitpay/cordova-plugin-qrscanner/pull/382) | fix: Remove style attribute from body for prevent unexpected background |
 | - | fix: Replace compile() with implementation() |
+| - | MOBILE-4819: Update gradle dependencies to fix flash |
 
 It also includes some commits that are in master and haven't been released, and the distribution assets have been added to the repository.
 
-You can see all the changes here: [111fa6c...moodlemobile:v3.0.1-moodle.5](https://github.com/bitpay/cordova-plugin-qrscanner/compare/111fa6c272da6c708b65528baea2316542e421fa...moodlemobile:v3.0.1-moodle.5)
+You can see all the changes here: [111fa6c...moodlemobile:v3.0.1-moodle.6](https://github.com/bitpay/cordova-plugin-qrscanner/compare/111fa6c272da6c708b65528baea2316542e421fa...moodlemobile:v3.0.1-moodle.6)
 
 ## Installation
 
 You can install this package using the [original installation instructions](https://github.com/bitpay/cordova-plugin-qrscanner#get-started), but installing this package instead:
 
 ```sh
-cordova plugin add @moodlehq/cordova-plugin-qrscanner@3.0.1-moodle.5
+cordova plugin add @moodlehq/cordova-plugin-qrscanner@3.0.1-moodle.6
 ```
